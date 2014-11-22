@@ -1,0 +1,45 @@
+
+#mainMenu{
+	position: absolute;
+	width: 150px;
+	margin-top: 3.42%;
+	margin-left: 2.7432%;
+	float:left;
+}
+
+#mainMenu li {
+	border: 1px solid black;
+}
+
+#content {
+	position: absolute;
+	width: 1000px;
+	height: 500px;
+	float:left;
+	margin-left: 20%;
+	margin-top: 3.42%;
+	border: 2px solid;
+}
+
+#selectable .ui-selecting {
+	background: #ccc;
+}
+
+#selectable .ui-selected {
+	background: lightGrey;
+}
+
+#selectable{
+	list-style-type: none;
+	padding-left: 3px;
+}
+
+#selectable li {
+	margin-top: 15px;
+	width: 99%;
+	border: 2px opaque;
+
+}
+
+
+
